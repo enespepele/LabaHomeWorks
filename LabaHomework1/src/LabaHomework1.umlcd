@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mJAOEM-yEe6WH73y8_hhzg">
+  <modelElement href="LabaHomework1.uml#_mIU4oM-yEe6WH73y8_hhzg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nrAzYM-yEe6WH73y8_hhzg" sourceAnchor="331.0,0.0" targetAnchor="204.0,232.0" superClass="_nrU8cM-yEe6WH73y8_hhzg" subClass="_nqpnAM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQ_FYM-yEe6WH73y8_hhzg"/>
+    <bendpoints xmi:id="_n4VdsM-yEe6WH73y8_hhzg" sourceY="-32" targetX="-26" targetY="27"/>
+    <bendpoints xmi:id="_n4Vdsc-yEe6WH73y8_hhzg" sourceX="26" sourceY="-32" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nrO10M-yEe6WH73y8_hhzg" sourceAnchor="314.0,0.0" targetAnchor="204.0,232.0" superClass="_nrU8cM-yEe6WH73y8_hhzg" subClass="_nqyw8M-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQ_FYc-yEe6WH73y8_hhzg"/>
+    <bendpoints xmi:id="_n4Vdss-yEe6WH73y8_hhzg" sourceY="-32" targetX="676" targetY="27"/>
+    <bendpoints xmi:id="_n4Vds8-yEe6WH73y8_hhzg" sourceX="-676" sourceY="-32" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nroecM-yEe6WH73y8_hhzg" sourceAnchor="349.0,0.0" targetAnchor="314.0,118.0" superClass="_nqyw8M-yEe6WH73y8_hhzg" subClass="_nsBgAM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQ_scM-yEe6WH73y8_hhzg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_nsQwkM-yEe6WH73y8_hhzg" sourceAnchor="332.0,0.0" targetAnchor="331.0,118.0" superClass="_nqpnAM-yEe6WH73y8_hhzg" subClass="_nsqZMM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQ_scc-yEe6WH73y8_hhzg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nqpnAM-yEe6WH73y8_hhzg" name="AdministrativeStaff" generalizations="_nrAzYM-yEe6WH73y8_hhzg" subclassedBy="_nsQwkM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQsxgM-yEe6WH73y8_hhzg"/>
+    <visualProperties xmi:id="_nqpnAc-yEe6WH73y8_hhzg" position="12.0,321.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nqpnAs-yEe6WH73y8_hhzg" label="+"/>
+    <attributes xmi:id="_nqpnA8-yEe6WH73y8_hhzg" name="departmentName">
+      <modelElement href="LabaHomework1.uml#_mRATgM-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nqpnBM-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRATgc-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nqpnBc-yEe6WH73y8_hhzg" label="~"/>
+      <cardinality xmi:id="_nqpnBs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nqpnB8-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nqpnCM-yEe6WH73y8_hhzg" name="AdministrativeStaff">
+      <modelElement href="LabaHomework1.uml#_mQt_oM-yEe6WH73y8_hhzg"/>
+      <keywords xmi:id="_nqpnCc-yEe6WH73y8_hhzg" keyword="create"/>
+      <visibility xmi:id="_nqpnCs-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqpnC8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nqpnDM-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQt_p8-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nqpnDc-yEe6WH73y8_hhzg" name="AdministrativeStaff">
+          <modelElement href="LabaHomework1.uml#_mQsxgM-yEe6WH73y8_hhzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nqpnDs-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQt_oc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqpnD8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqpnEM-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqpnEc-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQt_os-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqpnEs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqpnE8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqpnFM-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQt_o8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqpnFc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqpnFs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqpnF8-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQt_pM-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqpnGM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqpnGc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nqpnGs-yEe6WH73y8_hhzg" name="getDepartmentName">
+      <modelElement href="LabaHomework1.uml#_mQt_qM-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nqpnG8-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqpnHM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nqpnHc-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQt_qc-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nqpnHs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nqpnH8-yEe6WH73y8_hhzg" name="setDepartmentName">
+      <modelElement href="LabaHomework1.uml#_mQumsM-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nqpnIM-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqpnIc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nqpnIs-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQumsc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqpnI8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqpnJM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nqyw8M-yEe6WH73y8_hhzg" name="FacultyPersonel" generalizations="_nrO10M-yEe6WH73y8_hhzg" subclassedBy="_nroecM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQumss-yEe6WH73y8_hhzg"/>
+    <visualProperties xmi:id="_nqyw8c-yEe6WH73y8_hhzg" position="731.0,321.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nqyw8s-yEe6WH73y8_hhzg" label="+"/>
+    <attributes xmi:id="_nqyw88-yEe6WH73y8_hhzg" name="departmentName">
+      <modelElement href="LabaHomework1.uml#_mRATgs-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nqyw9M-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRATg8-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nqyw9c-yEe6WH73y8_hhzg" label="~"/>
+      <cardinality xmi:id="_nqyw9s-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nqyw98-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nqyw-M-yEe6WH73y8_hhzg" name="FacultyPersonel">
+      <modelElement href="LabaHomework1.uml#_mQvNwM-yEe6WH73y8_hhzg"/>
+      <keywords xmi:id="_nqyw-c-yEe6WH73y8_hhzg" keyword="create"/>
+      <visibility xmi:id="_nqyw-s-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqyw-8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nqyw_M-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQvNx8-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nqyw_c-yEe6WH73y8_hhzg" name="FacultyPersonel">
+          <modelElement href="LabaHomework1.uml#_mQumss-yEe6WH73y8_hhzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nqyw_s-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQvNwc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqyw_8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqyxAM-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqyxAc-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQvNws-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqyxAs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqyxA8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqyxBM-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQvNw8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqyxBc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqyxBs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nqyxB8-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQvNxM-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqyxCM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqyxCc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nqyxCs-yEe6WH73y8_hhzg" name="getDepartmentName">
+      <modelElement href="LabaHomework1.uml#_mQv00M-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nqyxC8-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqyxDM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nqyxDc-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQv00c-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nqyxDs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nqyxD8-yEe6WH73y8_hhzg" name="setDepartmentName">
+      <modelElement href="LabaHomework1.uml#_mQv00s-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nqyxEM-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nqyxEc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nqyxEs-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQv008-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nqyxE8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nqyxFM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nrU8cM-yEe6WH73y8_hhzg" name="Personel" abstractClass="true" subclassedBy="_nrAzYM-yEe6WH73y8_hhzg _nrO10M-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQwb5c-yEe6WH73y8_hhzg"/>
+    <visualProperties xmi:id="_nrU8cc-yEe6WH73y8_hhzg" position="165.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nrU8cs-yEe6WH73y8_hhzg" label="+"/>
+    <attributes xmi:id="_nrU8c8-yEe6WH73y8_hhzg" name="id">
+      <modelElement href="LabaHomework1.uml#_mRA6kM-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nrU8dM-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRA6kc-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nrU8dc-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8ds-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nrU8d8-yEe6WH73y8_hhzg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nrU8eM-yEe6WH73y8_hhzg" name="firstName">
+      <modelElement href="LabaHomework1.uml#_mRA6ks-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nrU8ec-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRA6k8-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nrU8es-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8e8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nrU8fM-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nrU8fc-yEe6WH73y8_hhzg" name="lastName">
+      <modelElement href="LabaHomework1.uml#_mRA6lM-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nrU8fs-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRA6lc-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nrU8f8-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8gM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nrU8gc-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nrU8gs-yEe6WH73y8_hhzg" name="Personel">
+      <modelElement href="LabaHomework1.uml#_mQxC8M-yEe6WH73y8_hhzg"/>
+      <keywords xmi:id="_nrU8g8-yEe6WH73y8_hhzg" keyword="create"/>
+      <visibility xmi:id="_nrU8hM-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8hc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nrU8hs-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQxC9s-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nrU8h8-yEe6WH73y8_hhzg" name="Personel">
+          <modelElement href="LabaHomework1.uml#_mQwb5c-yEe6WH73y8_hhzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nrU8iM-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQxC8c-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8ic-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8is-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nrU8i8-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQxC8s-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8jM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8jc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nrU8js-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQxC88-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8j8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8kM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nrU8kc-yEe6WH73y8_hhzg" name="getId">
+      <modelElement href="LabaHomework1.uml#_mQxC98-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8ks-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8k8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nrU8lM-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQxC-M-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nrU8lc-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nrU8ls-yEe6WH73y8_hhzg" name="setId">
+      <modelElement href="LabaHomework1.uml#_mQxC-c-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8l8-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8mM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nrU8mc-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQxC-s-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8ms-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8m8-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nrU8nM-yEe6WH73y8_hhzg" name="getFirstName">
+      <modelElement href="LabaHomework1.uml#_mQxqAM-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8nc-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8ns-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nrU8n8-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQxqAc-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nrU8oM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nrU8oc-yEe6WH73y8_hhzg" name="setFirstName">
+      <modelElement href="LabaHomework1.uml#_mQxqAs-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8os-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8o8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nrU8pM-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQxqA8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8pc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8ps-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nrU8p8-yEe6WH73y8_hhzg" name="getLastName">
+      <modelElement href="LabaHomework1.uml#_mQxqBM-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8qM-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8qc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nrU8qs-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQxqBc-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nrU8q8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nrU8rM-yEe6WH73y8_hhzg" name="setLastName">
+      <modelElement href="LabaHomework1.uml#_mQxqBs-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nrU8rc-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nrU8rs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nrU8r8-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQxqB8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nrU8sM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nrU8sc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nsBgAM-yEe6WH73y8_hhzg" name="Professor" generalizations="_nroecM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQyREM-yEe6WH73y8_hhzg"/>
+    <visualProperties xmi:id="_nsBgAc-yEe6WH73y8_hhzg" position="696.0,464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nsBgAs-yEe6WH73y8_hhzg" label="+"/>
+    <attributes xmi:id="_nsBgA8-yEe6WH73y8_hhzg" name="branchOfScience">
+      <modelElement href="LabaHomework1.uml#_mRA6ls-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nsBgBM-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRBhoM-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nsBgBc-yEe6WH73y8_hhzg" label="~"/>
+      <cardinality xmi:id="_nsBgBs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nsBgB8-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nsBgCM-yEe6WH73y8_hhzg" name="getBranchOfScience">
+      <modelElement href="LabaHomework1.uml#_mQyREc-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nsBgCc-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsBgCs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nsBgC8-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQyREs-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nsBgDM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nsBgDc-yEe6WH73y8_hhzg" name="setBranchOfScience">
+      <modelElement href="LabaHomework1.uml#_mQyRE8-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nsBgDs-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsBgD8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nsBgEM-yEe6WH73y8_hhzg" name="branchOfScience">
+        <modelElement href="LabaHomework1.uml#_mQyRFM-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgEc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgEs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nsBgE8-yEe6WH73y8_hhzg" name="Professor">
+      <modelElement href="LabaHomework1.uml#_mQy4IM-yEe6WH73y8_hhzg"/>
+      <keywords xmi:id="_nsBgFM-yEe6WH73y8_hhzg" keyword="create"/>
+      <visibility xmi:id="_nsBgFc-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsBgFs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nsBgF8-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQy4KM-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nsBgGM-yEe6WH73y8_hhzg" name="Professor">
+          <modelElement href="LabaHomework1.uml#_mQyREM-yEe6WH73y8_hhzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nsBgGc-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQy4Ic-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgGs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgG8-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsBgHM-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQy4Is-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgHc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgHs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsBgH8-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQy4I8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgIM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgIc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsBgIs-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQy4JM-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgI8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgJM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsBgJc-yEe6WH73y8_hhzg" name="branchOfScience">
+        <modelElement href="LabaHomework1.uml#_mQy4Jc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsBgJs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsBgJ8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nsqZMM-yEe6WH73y8_hhzg" name="Rector" generalizations="_nsQwkM-yEe6WH73y8_hhzg">
+    <modelElement href="LabaHomework1.uml#_mQy4Kc-yEe6WH73y8_hhzg"/>
+    <visualProperties xmi:id="_nsqZMc-yEe6WH73y8_hhzg" position="11.0,464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nsqZMs-yEe6WH73y8_hhzg" label="+"/>
+    <attributes xmi:id="_nsqZM8-yEe6WH73y8_hhzg" name="univertsityName">
+      <modelElement href="LabaHomework1.uml#_mRBhoc-yEe6WH73y8_hhzg"/>
+      <stereotypes xmi:id="_nsqZNM-yEe6WH73y8_hhzg" name="LegacyStyledElement">
+        <modelElement href="LabaHomework1.uml#_mRBhos-yEe6WH73y8_hhzg"/>
+      </stereotypes>
+      <visibility xmi:id="_nsqZNc-yEe6WH73y8_hhzg" label="~"/>
+      <cardinality xmi:id="_nsqZNs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <type xmi:id="_nsqZN8-yEe6WH73y8_hhzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nsqZOM-yEe6WH73y8_hhzg" name="Rector">
+      <modelElement href="LabaHomework1.uml#_mQzfMM-yEe6WH73y8_hhzg"/>
+      <keywords xmi:id="_nsqZOc-yEe6WH73y8_hhzg" keyword="create"/>
+      <visibility xmi:id="_nsqZOs-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsqZO8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nsqZPM-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQ0GQc-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nsqZPc-yEe6WH73y8_hhzg" name="Rector">
+          <modelElement href="LabaHomework1.uml#_mQy4Kc-yEe6WH73y8_hhzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nsqZPs-yEe6WH73y8_hhzg" name="id">
+        <modelElement href="LabaHomework1.uml#_mQzfMc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZP8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZQM-yEe6WH73y8_hhzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsqZQc-yEe6WH73y8_hhzg" name="firstName">
+        <modelElement href="LabaHomework1.uml#_mQzfMs-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZQs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZQ8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsqZRM-yEe6WH73y8_hhzg" name="lastName">
+        <modelElement href="LabaHomework1.uml#_mQzfM8-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZRc-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZRs-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsqZR8-yEe6WH73y8_hhzg" name="departmentName">
+        <modelElement href="LabaHomework1.uml#_mQzfNM-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZSM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZSc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nsqZSs-yEe6WH73y8_hhzg" name="univertsityName">
+        <modelElement href="LabaHomework1.uml#_mQzfNc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZS8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZTM-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nsqZTc-yEe6WH73y8_hhzg" name="getUnivertsityName">
+      <modelElement href="LabaHomework1.uml#_mQ0GQs-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nsqZTs-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsqZT8-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nsqZUM-yEe6WH73y8_hhzg">
+        <modelElement href="LabaHomework1.uml#_mQ0GQ8-yEe6WH73y8_hhzg"/>
+        <type xmi:id="_nsqZUc-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nsqZUs-yEe6WH73y8_hhzg" name="setUnivertsityName">
+      <modelElement href="LabaHomework1.uml#_mQ0GRM-yEe6WH73y8_hhzg"/>
+      <visibility xmi:id="_nsqZU8-yEe6WH73y8_hhzg" label="+"/>
+      <cardinality xmi:id="_nsqZVM-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nsqZVc-yEe6WH73y8_hhzg" name="univertsityName">
+        <modelElement href="LabaHomework1.uml#_mQ0GRc-yEe6WH73y8_hhzg"/>
+        <cardinality xmi:id="_nsqZVs-yEe6WH73y8_hhzg" label="1" max="1" min="1"/>
+        <type xmi:id="_nsqZV8-yEe6WH73y8_hhzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
